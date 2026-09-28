@@ -1,0 +1,7 @@
+/work/
+/outputs/
+/assets/images/*.jpg
+/assets/images/*.jpeg
+/assets/images/*.png
+Thumbs.db
+.DS_Store
