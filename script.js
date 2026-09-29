@@ -1,11 +1,3 @@
-const whatsappLink = "https://api.whatsapp.com/send?phone=5511978300451&text=Oi%20%F0%9F%98%8A%20tudo%20bem%3F%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20e%20como%20posso%20come%C3%A7ar.";
-
-document.querySelectorAll(".whatsapp-btn").forEach((button) => {
-  button.href = whatsappLink;
-  button.target = "_blank";
-  button.rel = "noopener noreferrer";
-});
-
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
 
@@ -31,3 +23,4 @@ document.querySelectorAll('.faq button').forEach((button) => {
     button.querySelector("span").textContent = isOpen ? "−" : "+";
   });
 });
+
